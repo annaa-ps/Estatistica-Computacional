@@ -60,3 +60,13 @@ x2 != 10
 !TRUE
 TRUE | FALSE #Ou
 TRUE & FALSE #e 
+
+?sample
+
+dado <- sample(x = 1:6, size = 1000000, replace = TRUE)
+dado
+#quantas vezes o número 3 foi sorteado 
+sum(dado == 3)
+
+table(dado)
+barplot(table(dado))
